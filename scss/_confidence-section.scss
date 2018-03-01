@@ -1,0 +1,27 @@
+.confidence-section{
+  min-height: 960px;
+  position: relative;
+  z-index: 5;
+  background: white;
+  transform: skew(-10deg) rotate(-10deg);
+  box-shadow: 0 8px 40px 20px rgba(0, 34, 0, 0.14);
+  @media (max-width:1201px) {
+    top: -3.5em;
+  }
+    .row-conf-content{
+      padding-top: 50px;
+      padding-left: 10px;
+      transform: rotate(10deg) skew(10deg);
+  }
+}
+
+.circles:before{
+  padding-right: 10px;
+  content: url("../img/left.png");
+}
+
+.circles:after{
+  padding-left: 10px;
+  content: url("../img/right.png");
+}
+
